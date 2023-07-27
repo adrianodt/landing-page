@@ -10,33 +10,32 @@ header {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  background-color: #1f2937;
-  padding: 20px 250px;
+  background-color: #ce0000;
+  padding: 50px 250px;
   align-items: center;
 }
 
 header h1 {
   color: #f9faf8;
-  font-size: 24px;
+  font-size: 40px;
   font-weight: 900;
 }
 
 header nav {
   display: flex;
-  font-size: 18px;
+  font-size: 30px;
   flex-direction: row;
   gap: 30px;
 }
 
 header nav a {
   color: #e5e7eb;
-  background-color: #1f2937;
-  font-size: 18px;
+  font-size: 20px;
   text-decoration: none;
 }
 
 .main {
-  background-color: #1f2937;
+  background-color: #ce0000;
   display: flex;
   flex-direction: row;
   padding: 80px 250px;
@@ -52,43 +51,44 @@ header nav a {
 }
 
 .main p {
-  font-size: 18px;
+  font-size: 24px;
   color: #e5e7eb;
   margin-top: 20px;
 }
 
 .main img {
-  height: 300px;
-  width: 900px;
+  height: 500px;
+  border-radius: 15px;
 }
 
 .main1 {
   gap: 50px;
 }
 
-.main1 button {
+.main1 button, .action button {
   padding: 10px 30px;
-  background-color: #3882f6;
+  background-color: #fffa8a;
   border: none;
   border-radius: 10px;
-  color: #f9faf8;
-  font-size: large;
+  color: 	#e12301;
+  font-size: 24px;
   font-weight: 700;
   margin-top: 20px;
   cursor: pointer;
+  box-shadow: 3px 3px 5px black;
 }
 
 .random {
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding: 100px 50px;
   align-items: center;
 }
 
 .random h2 {
   font-size: 36px;
   font-weight: 900;
-  color: #1f2937;
+  color: #ce0000;
   padding-bottom: 50px;
 }
 
@@ -96,10 +96,10 @@ header nav a {
   padding: 20px;
   display: flex;
   gap: 60px;
-  align-items: center;
+  align-items: start;
 }
 
-.cards .card {
+.card {
   display: flex;
   flex-direction: column;
   width: 300px;
@@ -111,60 +111,60 @@ header nav a {
 }
 
 .cards p {
-  font-size: 22px;
+  font-size: 18px;
   color: #888888;
   margin-top: 20px;
   text-align: center;
 }
 
 .quote {
-    display: flex;
-    flex-direction: column;
-    background-color: #e5e7eb;
-    padding: 100px 300px;
+  display: flex;
+  flex-direction: column;
+  background-color:	#fffa8a;
+  padding: 100px 300px;
 }
 
 .quote .text {
-    font-size: 36px;
-    color: #1f2937;
-    font-weight: 100;
+  font-size: 36px;
+  color: #dba24a;
+  font-weight: 100;
 }
 
 .quote .author {
-    color: #1f2937;
-    font-size: 30px;
-    text-align: end;
+  color: #dba24a;
+  font-size: 34px;
+  text-align: end;
+  padding-top: 20px;
 }
 
 .action {
-    background-color: #3882f6;
-    margin: 80px;
-    padding: 50px;
-    display: flex;
-    justify-content: space-around;
-    border-radius: 10px;
+  background-color:#dba24a;
+  margin: 80px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .text h2 {
-    color: #e5e7eb;
-    font-size: 30px;
+  color: #fffa8a;
+  font-size: 30px;
 }
 
 .text p {
-    color: #f9faf8;
-    font-size: 22px;
+  color:#fffa8a;
+  font-size: 22px;
 }
 
-.action button {
-    padding: 10px 30px;
-  background-color: #3882f6;
-  border: none;
-  border-radius: 10px;
-  color: #f9faf8;
-  font-size: large;
-  font-weight: 700;
-  margin-top: 20px;
-  cursor: pointer;
-  border: solid 2px #f9faf8;
-}
 
+
+.footer {
+  background-color: #ce0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12vh;
+  font-size: 24px;
+  color: white;
+}
