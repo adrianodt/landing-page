@@ -106,11 +106,11 @@ header nav a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 150px;
+  width: 200px;
 }
 
 .cards img {
-  width: 150px;
+  width: 200px;
   border-radius: 20px;
 }
 
