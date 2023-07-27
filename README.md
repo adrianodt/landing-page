@@ -1,3 +1,3 @@
 # landing-page
 
-fotos de pixabay
+All pictures from Pixabay :)
