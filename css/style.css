@@ -11,7 +11,7 @@ header {
   justify-content: space-between;
   flex-direction: row;
   background-color: #ce0000;
-  padding: 50px 250px;
+  padding: 50px 100px;
   align-items: center;
 }
 
@@ -38,7 +38,7 @@ header nav a {
   background-color: #ce0000;
   display: flex;
   flex-direction: row;
-  padding: 80px 250px;
+  padding: 80px 100px;
   justify-content: space-between;
   align-items: center;
   gap: 50px;
@@ -57,7 +57,7 @@ header nav a {
 }
 
 .main img {
-  height: 500px;
+  height: 300px;
   border-radius: 15px;
 }
 
@@ -102,11 +102,12 @@ header nav a {
 .card {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 300px;
 }
 
 .cards img {
-  width: 300px;
+  width: 200px;
   border-radius: 20px;
 }
 
